@@ -32,3 +32,38 @@ def basic_profile(rows: list[dict[str, str]], top_k: int = 3) -> dict:
         }
 
     return {"rows": len(rows), "columns": report_columns}
+
+
+
+
+
+
+def is_missing(v: str) -> bool:
+    return v is None or v.strip() == ""
+
+
+def text_stats(values: list[str], top_k: int = 5) -> dict:
+    
+    usable = [v for v in values if not is_missing(v)]
+    missing = len(values) - len(usable)
+
+    
+    counts: dict[str, int] = {}
+    for v in usable:
+        counts[v] = counts.get(v, 0) + 1
+
+    
+    top_items = sorted(
+        counts.items(),
+        key=lambda kv: kv[1],
+        reverse=True
+    )[:top_k]
+
+    top = [{"value": v, "count": c} for v, c in top_items]
+
+    return {
+        "count": len(usable),
+        "missing": missing,
+        "unique": len(counts),
+        "top": top
+    }
