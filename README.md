@@ -6,7 +6,7 @@
 
 ## Commandline
 
-```
+
 
 ### . Navigate to the project root directory
 Use `cd` to move to the project folder.
@@ -43,6 +43,7 @@ csv-profiler/data/sample.csv
 
 -Always run commands from the project root directory
 -Missing values are represented as empty strings
+
 
 
 
