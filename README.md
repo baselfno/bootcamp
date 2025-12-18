@@ -12,13 +12,29 @@
  2- Setup the environment (uv sync) 
 
 
- 3- Copy the command and run the project (`uv run python src/main.py profile csv-profiler/data/sample.csv --top-k 5 --output-dir csv-profiler/outputs` )
+3- cd bootcamp
+
+
+4- Copy the command and run the project (`uv run python src/main.py profile csv-profiler/data/sample.csv --top-k 5 --output-dir csv-profiler/outputs` )
 
 
 
  ## Commandline for streamlit 
 
- 1- Copy the command and run the project ( ` set PYTHONPATH=src && uv run streamlit run app.py ` ) 
+ 1- git clone https://github.com/baselfno/bootcamp.git
+
+
+ 2- cd bootcamp
+ 
+ 
+ 3- Copy the command and run the project ( ` python -m streamlit run app.py ` ) 
+
+
+
+ - ` Streamlit interface `
+ ![App Preview](<img width="1916" height="866" alt="Screenshot 2025-12-18 171243" src="https://github.com/user-attachments/assets/b8586aab-a96b-469f-b2e5-8f841bed7bc9" />)
+
+
 
 
 
