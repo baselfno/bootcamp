@@ -6,43 +6,25 @@
 
 ## Commandline
 
+ 1- Clone the Repositorie
 
 
-### . Navigate to the project root directory
-Use `cd` to move to the project folder.
-Example:
-```bash
-cd C:\project1\bootcamp
+ 2- Setup the environment (uv sync) 
 
 
-## . Verify uv is available
-uv --version
+ 3- Copy the command and run the project (`uv run python src/main.py profile csv-profiler/data/sample.csv --top-k 5 --output-dir csv-profiler/outputs` )
 
 
 
-## . Setup the environment
-uv sync
+ ## Commandline for streamlit 
+
+ 1- Copy the command and run the project ( ` set PYTHONPATH=src && uv run streamlit run app.py ` ) 
 
 
 
-## . Run the program
-uv run python src/main.py
 
 
 
-## . Output
-After running the command, the following files will be generated:
-csv-profiler/outputs/report.json
-csv-profiler/outputs/report.md
-
-
-
-## . Notes
--The input CSV file must exist at:
-csv-profiler/data/sample.csv
-
--Always run commands from the project root directory
--Missing values are represented as empty strings
 
 
 
