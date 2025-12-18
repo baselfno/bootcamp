@@ -32,7 +32,9 @@
 
 
  - ` Streamlit interface `
- ![App Preview](<img width="1916" height="866" alt="Screenshot 2025-12-18 171243" src="https://github.com/user-attachments/assets/b8586aab-a96b-469f-b2e5-8f841bed7bc9" />)
+ <img width="1916" height="866" alt="Screenshot 2025-12-18 171243" src="https://github.com/user-attachments/assets/9f469a12-6d27-4ec2-aa83-2f2458ad5099" />
+
+
 
 
 
