@@ -16,6 +16,14 @@
 
 
 
+ ## Commandline for streamlit 
+
+ 1- Copy the command and run the project ( ` set PYTHONPATH=src && uv run streamlit run app.py ` ) 
+
+
+
+
+
 
 
 
